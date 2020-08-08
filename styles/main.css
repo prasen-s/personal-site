@@ -1,0 +1,43 @@
+a {
+  text-decoration: none;
+}
+
+nav {
+  background-color: #a5a5af;
+  height: 3rem;
+  text-align: right;
+}
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.content {
+  margin: 0 2%;
+  height: 750px;
+}
+
+.external-link {
+  color: #ffffff;
+  margin: 0 1%;
+}
+
+.greeting {
+  height: 500px;
+}
+
+.navigation-links {
+  color: #ffffff;
+  margin: 0 1%;
+}
+
+.resume {
+
+}
+
+.bottom {
+  background-color: #a5a5af;
+  height: 3rem;
+  text-align: center;
+}
