@@ -1,43 +1,24 @@
-a {
-  text-decoration: none;
-}
-
-nav {
-  background-color: #a5a5af;
-  height: 3rem;
-  text-align: right;
-}
-
-body {
-  margin: 0;
-  font-family: 'Arial', sans-serif;
-}
-
-.content {
-  margin: 0 2%;
-  height: 750px;
-}
-
-.external-link {
-  color: #ffffff;
-  margin: 0 1%;
-}
-
-.greeting {
-  height: 500px;
-}
-
-.navigation-links {
-  color: #ffffff;
-  margin: 0 1%;
-}
+/* General */
 
 .bottom {
-  background-color: #a5a5af;
-  height: 3rem;
-  text-align: center;
+  padding: 1% 1%;
 }
 
-#resume {
-  text-align: center;
+/* Specific */
+
+.greeting {
+  /* padding-top: 56px; */
+  margin: 20% 0;
+}
+
+.intro-primary {
+  font-size: 4rem;
+  padding-bottom: 1%;
+}
+
+
+/* Playground */
+
+.playground-content {
+  
 }
