@@ -32,12 +32,12 @@ body {
   margin: 0 1%;
 }
 
-.resume {
-
-}
-
 .bottom {
   background-color: #a5a5af;
   height: 3rem;
+  text-align: center;
+}
+
+#resume {
   text-align: center;
 }
