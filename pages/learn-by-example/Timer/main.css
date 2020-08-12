@@ -27,8 +27,32 @@ p {
   transform: scale(1.5);
 }
 
+.active{
+  z-index: 1;
+}
+
+.switcher {
+  position: fixed;
+  right: 100px;
+}
+
 .container {
   position: relative;
+  top: -25vh;
+  display: flex;
+  justify-content: center;
+}
+
+.outer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.inner {
+  position: absolute;
+  height: 50vh;
+  width: 50vw;
 }
 
 .row {
@@ -49,10 +73,8 @@ p {
   text-align: center;
 }
 
-.active-view {
-  z-index: 100;
-}
-
-.inactive-view {
-  z-index: 0;
+.cite {
+  font-size: 1rem;
+  position: fixed;
+  bottom: 5%;
 }

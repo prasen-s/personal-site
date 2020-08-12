@@ -1,3 +1,13 @@
+function stopWatch() {
+  document.querySelector("#stopwatch").classList.add("active");
+  document.querySelector("#timer").classList.remove("active");
+}
+
+function countDown() {
+  document.querySelector("#timer").classList.add("active");
+  document.querySelector("#stopwatch").classList.remove("active");
+}
+
 document.addEventListener("load", timer());
 
 var counter = 1;
