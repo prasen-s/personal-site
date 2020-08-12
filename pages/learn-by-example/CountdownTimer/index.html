@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Countdown Timer</title>
+  </head>
+  <body>
+    <div class="clock-input">
+      <input type="date" name="time-to" class="time-to" id="time-to" value="" onchange="calcTime(this.value)">
+    </div>
+    <div class="container">
+      <div class="clock-column">
+        <p class="clock-day clock-timer"></p>
+        <p class="clock-label">Days</p>
+      </div>
+
+      <div class="clock-column">
+        <p class="clock-hours clock-timer"></p>
+        <p class="clock-label">Hours</p>
+      </div>
+
+      <div class="clock-column">
+        <p class="clock-minutes clock-timer"></p>
+        <p class="clock-label">Minutes</p>
+      </div>
+
+      <div class="clock-column">
+        <p class="clock-seconds clock-timer"></p>
+        <p class="clock-label">Seconds</p>
+      </div>
+
+    </div>
+
+    <a href="https://blog.bitsrc.io/15-app-ideas-to-build-and-level-up-your-coding-skills-28612c72a3b1">Source.</a>
+
+    <script src="index.js"></script>
+  </body>
+</html>

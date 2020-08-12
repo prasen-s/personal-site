@@ -1,0 +1,58 @@
+body {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+
+p {
+  font-family: 'Monsterrat', sans-serif;
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.button {
+  font-family: 'Monsterrat', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  border-radius: 4px;
+  background-color: transparent;
+  border: none;
+}
+
+.button:hover {
+  transform: scale(1.5);
+}
+
+.container {
+  position: relative;
+}
+
+.row {
+  position: relative;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+.col {
+  position: relative;
+  margin: 2rem;
+  justify-content: center;
+}
+
+.stopwatch-display {
+  width: 4rem;
+  text-align: center;
+}
+
+.active-view {
+  z-index: 100;
+}
+
+.inactive-view {
+  z-index: 0;
+}
