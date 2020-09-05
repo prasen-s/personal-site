@@ -4,6 +4,7 @@ function stopWatch() {
 }
 
 function countDown() {
+  stopTimer();
   document.querySelector("#timer").classList.add("active");
   document.querySelector("#stopwatch").classList.remove("active");
 }
@@ -19,17 +20,17 @@ function timer() {
     displayProper(counter);
     counter++;
   },1000);
-  console.log("Set Interval value returned: " + start);
+  // console.log("Set Interval value returned: " + start);
 }
 
 function stopTimer() {
-  console.log("Timer: " + counter + " Value: " + start);
+  // console.log("Timer: " + counter + " Value: " + start);
   clearInterval(start);
   stopped = true;
 }
 
 function resumeTimer() {
-  console.log("Timer: " + counter + " Value: " + start);
+  // console.log("Timer: " + counter + " Value: " + start);
   if (stopped) {
     timer();
   }
@@ -37,7 +38,7 @@ function resumeTimer() {
 
 function resetTimer() {
   stopTimer();
-  console.log("Timer: " + counter + " Value: " + start);
+  // console.log("Timer: " + counter + " Value: " + start);
   counter = 0;
   timer();
   stopped = false;
@@ -51,4 +52,12 @@ function displayProper(count) {
   document.querySelector(".seconds").innerHTML = seconds;
   document.querySelector(".minutes").innerHTML = minutes;
   document.querySelector(".hours").innerHTML = hours;
+}
+
+
+// countDown
+
+function startCountdown() {
+  var endtime = document.getElementById("countdown").value;
+  console.log(endtime);
 }

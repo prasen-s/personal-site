@@ -8,10 +8,14 @@
     <title>Timer</title>
   </head>
   <body>
+    <div class="message">
+      <p class="custom-message">An application for me to build as I learn. It may be clunky but I'm working on it. :)</p>
+    </div>
     <div class="container">
       <div class="outer">
 
-        <div id="stopwatch" class="inner active" style="background-color: teal">
+        <div id="stopwatch" class="inner active">
+        <!-- <div id="stopwatch" class="inner active" style="background-color: teal"> -->
           <div class="row">
             <div class="col">
               <p class="hours stopwatch-display">-</p>
@@ -36,8 +40,22 @@
           </div>
         </div>
 
-        <div id="timer" class="inner" style="background-color: red">
-          <input type="time" name="" value="">
+        <div id="timer" class="inner">
+        <!-- <div id="timer" class="inner" style="background-color: red"> -->
+          <div class="row">
+            <input id="countdown" type="time" name="countdown" value="" onchange="startCountdown()" style="font-size: 3rem">
+          </div>
+          <div class="row">
+            <div class="col">
+              <p class="hours stopwatch-display">-</p>
+            </div>
+            <div class="col">
+              <p class="minutes stopwatch-display">-</p>
+            </div>
+            <div class="col">
+              <p class="seconds stopwatch-display">-</p>
+            </div>
+          </div>
         </div>
 
       </div>
